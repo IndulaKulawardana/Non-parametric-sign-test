@@ -32,18 +32,18 @@ a) Install python 3x, pip
 b) Create a virtual environment.
    In command shell/terminal, go to your project’s directory and run venv using below command.
    
-   python -m venv <name>
+   'python -m venv <name>'
    
    If you give the name for env, venv will create a virtual Python installation in the env folder.
 
 c) Before starting installing packages in the created virtual environment, you need to 
    activate the virtual environment using following command.
 
-   .\env\Scripts\activate
+   '.\env\Scripts\activate'
    
 d) Run the following command to install requirements 
     
-   pip install -r requirements.txt
+   'pip install -r requirements.txt'
 
 e) Follow the below steps to execute Sign Test for your own data set to test your claim based on Median of the distribution of data. 
 
