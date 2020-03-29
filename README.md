@@ -29,7 +29,7 @@ columns provided in the Sample_3.csv file.
 #### Guidelines 
 a) Install python 3x, pip
 
-b) Create a virtual environment
+b) Create a virtual environment.
    In command shell/terminal, go to your project’s directory and run venv using below command.
    
    python -m venv <name>
