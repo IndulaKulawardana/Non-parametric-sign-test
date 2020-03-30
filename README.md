@@ -27,12 +27,12 @@ columns provided in the Sample_3.csv file.
 
 
 #### Guidelines 
-a) Install python 3x, pip
+a) Install python 3x and pip
 
 b) Create a virtual environment.
    In command shell/terminal, go to your project’s directory and run venv using below command.
    
-   'python -m venv <name>'
+   'python -m venv name'
    
    If you give the name for env, venv will create a virtual Python installation in the env folder.
 
