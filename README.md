@@ -32,7 +32,7 @@ a) Install python 3x and pip
 b) Create a virtual environment.
    In command shell/terminal, go to your project’s directory and run venv using below command.
    
-   'python -m venv #####<name>#####'
+   'python -m venv </name/>'
    
    If you give the name for venv, venv will create a virtual Python installation in the venv folder.
 
