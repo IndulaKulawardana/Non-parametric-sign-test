@@ -21,28 +21,22 @@ Since sample size is greater than 30, the algorithm written for sign test for la
 A golf instructor is interested in determining if her new technique for improving players’ golf scores is effective. She randomly selected 10 new students. She records their 18-hole scores before learning the technique and then after having taken her class. The data are in the Sample_3.csv file.
 The sign test is used to test the golf instructor's claim at 5% significance level. 
 
-<<<<<<< HEAD
-=======
 Note: The algorithm written for sign test for the paired samples is used after taking difference between relevant two 
 columns provided in the Sample_3.csv file. 
 
->>>>>>> 01852906db09e0e1b85046ae00ad7bc9ca608f56
 #### Guidelines 
 a) Install python 3x and pip
 
-<<<<<<< HEAD
 b) Create a virtual environment. 
    In command shell/terminal, go to your project’s directory and run venv using following command.
    
    'python -m venv venv'
    
-=======
 b) Create a virtual environment.
    In command shell/terminal, go to your project’s directory and run venv using following command.
    
    'python -m venv venv'
 
->>>>>>> 01852906db09e0e1b85046ae00ad7bc9ca608f56
 c) Before starting installing packages in the created virtual environment, you need to 
    activate the virtual environment using following command.
 
