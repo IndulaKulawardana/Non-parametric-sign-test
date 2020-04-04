@@ -10,7 +10,7 @@ the algorithm written for sign test for small sample size is used.
 #### Sign Test for large sample
 
 #### Example 2:  
-The Company Manager needs to figure out whether the median number of weekly sales 
+A Company Manager needs to figure out whether the median number of weekly sales 
 is less than 5120 or not. Number of Sales in the company is given in the Sample_2.csv file. 
 The sign test is used to test the Manger's claim at 5% significance level.
 Since sample size is greater than 30, the algorithm written for sign test for large sample size is used.  
@@ -25,25 +25,22 @@ Note: The algorithm written for sign test for small sample size is used after ta
 columns provided in the Sample_3.csv file. 
 
 
-
 #### Guidelines 
 a) Install python 3x, pip
 
-b) Create a virtual environment
-   In command shell/terminal, go to your project’s directory and run venv using below command.
+b) Create a virtual environment. 
+   In command shell/terminal, go to your project’s directory and run venv using following command.
    
-   python -m venv <name>
+   'python -m venv venv'
    
-   If you give the name for env, venv will create a virtual Python installation in the env folder.
-
 c) Before starting installing packages in the created virtual environment, you need to 
    activate the virtual environment using following command.
 
-   .\env\Scripts\activate
+   'venv\Scripts\activate'
    
 d) Run the following command to install requirements 
     
-   pip install -r requirements.txt
+   'pip install -r requirements.txt'
 
 e) Follow the below steps to execute Sign Test for your own data set to test your claim based on Median of the distribution of data. 
 

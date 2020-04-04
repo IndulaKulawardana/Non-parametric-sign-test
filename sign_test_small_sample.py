@@ -23,7 +23,7 @@ def sign_test_small_sample(df, column, md, alpha, alternate):
     len_minus_sign = len(minus_sign)
     len_plus_sign = len(plus_sign)
     len_equals = len(equals)
-    sample_size = len(column)
+    sample_size = len_minus_sign + len_plus_sign
 
     sample_info = {"column_data": column, "count_minus_sign": len_minus_sign, "count_plus_sign": len_plus_sign,
                    "count_equals": len_equals, "sample_size": sample_size}

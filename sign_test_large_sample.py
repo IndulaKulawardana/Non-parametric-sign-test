@@ -24,7 +24,7 @@ def sign_test_large_sample(df, column, md, alpha, alternate):
     len_minus_sign = len(minus_sign)
     len_plus_sign = len(plus_sign)
     len_equals = len(equals)
-    sample_size = len(column)
+    sample_size = len_minus_sign + len_plus_sign
 
     table_result = {'Negative Differences': len_minus_sign, 'Positive Differences': len_plus_sign, 'Ties': len_equals,
                     'Total': sample_size}
