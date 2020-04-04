@@ -10,7 +10,7 @@ the algorithm written for sign test for small sample size is used.
 #### Sign Test for large sample
 
 #### Example 2:  
-The Company Manager needs to figure out whether the median number of weekly sales 
+A Company Manager needs to figure out whether the median number of weekly sales 
 is less than 5120 or not. Number of Sales in the company is given in the Sample_2.csv file. 
 The sign test is used to test the Manger's claim at 5% significance level.
 Since sample size is greater than 30, the algorithm written for sign test for large sample size is used.  
@@ -18,13 +18,11 @@ Since sample size is greater than 30, the algorithm written for sign test for la
 #### Sign Test for paired sample (Small in size)
 
 #### Example 3: 
-A golf instructor is interested in determining if her new technique for improving players’ golf scores is effective. She randomly selected 10 new students. 
-She records their 18-hole scores before learning the technique and then after having taken her class. 
+A golf instructor is interested in determining if her new technique for improving players’ golf scores is effective. She randomly selected 10 new students. She records their 18-hole scores before learning the technique and then after having taken her class. The data are in the Sample_3.csv file.
 The sign test is used to test the golf instructor's claim at 5% significance level. 
-Note: The algorithm written for sign test for small sample size is used after taking difference between relevant two 
+
+Note: The algorithm written for sign test for the paired samples is used after taking difference between relevant two 
 columns provided in the Sample_3.csv file. 
-
-
 
 #### Guidelines 
 a) Install python 3x and pip
@@ -48,3 +46,4 @@ e) Follow the below steps to execute Sign Test for your own data set to test you
 - Input your sample data file (in csv format) into input folder
 - Substitute required parameters in config.py file
 - Run run.py file (Results are saved as a html file in Output folder)
+
