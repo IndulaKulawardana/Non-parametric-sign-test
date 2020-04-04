@@ -22,21 +22,7 @@ A golf instructor is interested in determining if her new technique for improvin
 She records their 18-hole scores before learning the technique and then after having taken her class. 
 The sign test is used to test the golf instructor's claim at 5% significance level. 
 
-<<<<<<< HEAD
 Note: The algorithm written for sign test for small sample size is used after taking difference between relevant two 
-columns provided in the Sample_3.csv file. 
-
-
-#### Guidelines 
-a) Install python 3x, pip
-
-b) Create a virtual environment. 
-   In command shell/terminal, go to your project’s directory and run venv using following command.
-   
-   'python -m venv venv'
-   
-=======
-Note: The algorithm written for sign test for the paired samples is used after taking difference between relevant two 
 columns provided in the Sample_3.csv file. 
 
 #### Guidelines 
@@ -47,7 +33,6 @@ b) Create a virtual environment.
    
    'python -m venv venv'
 
->>>>>>> 5ee73e2c2064e02557b95b8dea8134f80e66aa4d
 c) Before starting installing packages in the created virtual environment, you need to 
    activate the virtual environment using following command.
 
